@@ -16,7 +16,111 @@
 </head>
 
 <body>
-    <div class="bg-[url('/pages/assets/images/bgabout.png')] bg-[#F1F1F1] w-auto h-auto bg-no-repeat bg-contain">
+     <header>
+        <div class="grid grid-cols-1 md:flex justify-between px-4 py-3 border-b-2">
+            <div class="flex gap-3">
+                <div>
+                    <img src="./assets/images/Phone.svg" alt="Phone">
+                </div>
+                <div>
+                    <div class="text-xs font-normal">
+                        <h2>Do you need help?</h2>
+                    </div>
+                    <div class="text-base font-normal">
+                        <h2>+0(850) 544 7514</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="text-4xl font-bold">
+                <h2>Crosson</h2>
+            </div>
+            <div class="grid grid-cols-1 md:flex justify-between gap-10">
+                <div class="flex gap-4 pt-2">
+                    <div class="cursor-pointer">
+                        <img src="./assets/images/Linkedin.svg" alt="Linkedin">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img src="./assets/images/Instagram.svg" alt="Instagram">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img src="./assets/images/Twitter.svg" alt="Twitter">
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div>
+                        <img src="./assets/images/Flag.svg" alt="Flag">
+                    </div>
+                    <div>
+                        <div class="text-xs font-normal text-[#bdb1b1]">
+                            <h2>Language</h2>
+                        </div>
+                        <div class="text-[13px] font-normal">
+                            <h2>English</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 px-4 md:flex justify-center md:px-0 gap-10 py-3 border-b-2 ">
+            <div>
+                <button class="text-black font-medium rounded-lg text-base text-center inline-flex items-center"
+                    type="button" data-dropdown-toggle="dropdown">Products <svg class="w-4 h-4 ml-2" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="w-40 hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4"
+                    id="dropdown">
+                    <ul class="py-1" aria-labelledby="dropdown">
+                        <li>
+                            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/pricing.html"
+                                class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/about.html"
+                                class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">About Us</a>
+                        </li>
+                        <li>
+                            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/contact.html"
+                                class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/pricing.html">
+                <div class="cursor-pointer">
+                    <h2>Solutions</h2>
+                </div>
+            </a>
+            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/services.html">
+                <div class="cursor-pointer">
+                    <h2>Softwares</h2>
+                </div>
+            </a>
+            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/services.html">
+                <div class="cursor-pointer">
+                    <h2>Services</h2>
+                </div>
+            </a>
+            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/contact.html">
+                <div class="cursor-pointer">
+                    <h2>Corporate</h2>
+                </div>
+            </a>
+            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/news.html">
+                <div class="cursor-pointer">
+                    <h2>News</h2>
+                </div>
+            </a>
+            <a href="https://iaamhammadahmed.github.io/Business-Website-Template/pages/contact.html">
+                <div class="cursor-pointer hidden md:flex">
+                    <h2>Contact</h2>
+                </div>
+            </a>
+        </div>
+    </header>
+    <div class="bg-[url('assets/images/bgabout.png')] bg-[#F1F1F1] w-auto h-auto bg-no-repeat bg-contain">
         <div class="pt-20 px-16 flex flex-col gap-10">
             <div class="flex flex-col gap-3">
                 <h2 class="text-5xl font-normal">Contact Us</h2>
