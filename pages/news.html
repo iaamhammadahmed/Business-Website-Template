@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/Favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="grid grid-cols-1 md:flex justify-between px-4 py-3 border-b-2">
+            <div class="flex gap-3">
+                <div>
+                    <img src="./assets/images/Phone.svg" alt="Phone">
+                </div>
+                <div>
+                    <div class="text-xs font-normal">
+                        <h2>Do you need help?</h2>
+                    </div>
+                    <div class="text-base font-normal">
+                        <h2>+0(850) 544 7514</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="text-4xl font-bold">
+                <h2>Crosson</h2>
+            </div>
+            <div class="grid grid-cols-1 md:flex justify-between gap-10">
+                <div class="flex gap-4 pt-2">
+                    <div class="cursor-pointer">
+                        <img src="./assets/images/Linkedin.svg" alt="Linkedin">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img src="./assets/images/Instagram.svg" alt="Instagram">
+                    </div>
+                    <div class="cursor-pointer">
+                        <img src="./assets/images/Twitter.svg" alt="Twitter">
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div>
+                        <img src="./assets/images/Flag.svg" alt="Flag">
+                    </div>
+                    <div>
+                        <div class="text-xs font-normal text-[#bdb1b1]">
+                            <h2>Language</h2>
+                        </div>
+                        <div class="text-[13px] font-normal">
+                            <h2>English</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 px-4 md:flex justify-center md:px-0 gap-10 py-3 border-b-2 ">
+            <div>
+                <button class="text-black font-medium rounded-lg text-base text-center inline-flex items-center"
+                    type="button" data-dropdown-toggle="dropdown">Products <svg class="w-4 h-4 ml-2" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="w-40 hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4"
+                    id="dropdown">
+                    <ul class="py-1" aria-labelledby="dropdown">
+                        <li>
+                            <a href="http://127.0.0.1:5500/pages/pricing.html"
+                                class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5500/pages/about.html"
+                                class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">About Us</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5500/pages/contact.html"
+                                class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+            <a href="http://127.0.0.1:5500/pages/pricing.html">
+                <div class="cursor-pointer">
+                    <h2>Solutions</h2>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:5500/pages/services.html">
+                <div class="cursor-pointer">
+                    <h2>Softwares</h2>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:5500/pages/services.html">
+                <div class="cursor-pointer">
+                    <h2>Services</h2>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:5500/pages/contact.html">
+                <div class="cursor-pointer">
+                    <h2>Corporate</h2>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:5500/pages/news.html">
+                <div class="cursor-pointer">
+                    <h2>News</h2>
+                </div>
+            </a>
+            <a href="http://127.0.0.1:5500/pages/contact.html">
+                <div class="cursor-pointer hidden md:flex">
+                    <h2>Contact</h2>
+                </div>
+            </a>
+        </div>
+    </header>
+    <div class="bg-[url('/pages/assets/images/bgabout.png')] bg-[#F1F1F1] w-auto h-auto bg-no-repeat bg-contain">
+        <div class="pt-20 px-16 flex flex-col gap-10">
+            <div class="flex flex-col gap-3">
+                <h2 class="text-5xl font-normal">News</h2>
+                <div class="flex flex-rows-2 gap-3">
+                    <div class="flex gap-3">
+                        <h2 class="text-xs font-normal">Home</h2>
+                        <img src="./assets/images/RIcon.svg" alt="RIcon">
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-xs font-normal">News</h2>
+                        <img src="./assets/images/RIcon.svg" alt="RIcon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 px-10 py-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">
+                <div>
+                    <img src="./assets/images/News1.png" alt="Endimg1">
+                </div>
+                <div class="flex flex-col gap-5 pt-10">
+                    <h2 class="text-2xl font-normal">Crosson Holding’s 58th ordinary general assembly convened
+                    </h2>
+                    <p class="text-[18px]">Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah
+                        ice
+                        cream.
+                    </p>
+                    <a href="http://127.0.0.1:5500/pages/newsdetail.html">
+                        <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                            <div class="flex justify-between">
+                                <div class="pl-7">
+                                    <h2>
+                                        Read More
+                                    </h2>
+                                </div>
+                                <div class="pt-1.5 pr-6">
+                                    <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <img src="./assets/images/News2.png" alt="Endimg2">
+                </div>
+                <div class="flex flex-col gap-5 pt-10">
+                    <h2 class="text-2xl font-normal">Crosson Holding’s 58th ordinary general assembly convened
+                    </h2>
+                    <p class="text-[18px]">Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah
+                        ice
+                        cream.</p>
+                    <a href="http://127.0.0.1:5500/pages/newsdetail.html">
+                        <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                            <div class="flex justify-between">
+                                <div class="pl-7">
+                                    <h2>
+                                        Read More
+                                    </h2>
+                                </div>
+                                <div class="pt-1.5 pr-6">
+                                    <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">
+                <div>
+                    <img src="./assets/images/News3.png" alt="Endimg1">
+                </div>
+                <div class="flex flex-col gap-5 pt-10">
+                    <h2 class="text-2xl font-normal">Crosson Holding’s 58th ordinary general assembly convened
+                    </h2>
+                    <p class="text-[18px]">Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah
+                        ice
+                        cream.
+                    </p>
+                    <a href="http://127.0.0.1:5500/pages/newsdetail.html">
+                        <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                            <div class="flex justify-between">
+                                <div class="pl-7">
+                                    <h2>
+                                        Read More
+                                    </h2>
+                                </div>
+                                <div class="pt-1.5 pr-6">
+                                    <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <img src="./assets/images/News4.png" alt="Endimg2">
+                </div>
+                <div class="flex flex-col gap-5 pt-10">
+                    <h2 class="text-2xl font-normal">Crosson Holding’s 58th ordinary general assembly convened
+                    </h2>
+                    <p class="text-[18px]">Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah
+                        ice
+                        cream.</p>
+                    <a href="http://127.0.0.1:5500/pages/newsdetail.html">
+                        <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                            <div class="flex justify-between">
+                                <div class="pl-7">
+                                    <h2>
+                                        Read More
+                                    </h2>
+                                </div>
+                                <div class="pt-1.5 pr-6">
+                                    <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 pb-5">
+                <div>
+                    <img src="./assets/images/News5.png" alt="Endimg1">
+                </div>
+                <div class="flex flex-col gap-5 pt-10">
+                    <h2 class="text-2xl font-normal">Crosson Holding’s 58th ordinary general assembly convened
+                    </h2>
+                    <p class="text-[18px]">Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah
+                        ice
+                        cream.
+                    </p>
+                    <a href="http://127.0.0.1:5500/pages/newsdetail.html">
+                        <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                            <div class="flex justify-between">
+                                <div class="pl-7">
+                                    <h2>
+                                        Read More
+                                    </h2>
+                                </div>
+                                <div class="pt-1.5 pr-6">
+                                    <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <img class="w-auto h-auto" src="./assets/images/News6.png" alt="Endimg2">
+                </div>
+                <div class="flex flex-col gap-5 pt-10">
+                    <h2 class="text-2xl font-normal">Crosson Holding’s 58th ordinary general assembly convened
+                    </h2>
+                    <p class="text-[18px]">Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah
+                        ice
+                        cream.</p>
+                    <a href="http://127.0.0.1:5500/pages/newsdetail.html">
+                        <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                            <div class="flex justify-between">
+                                <div class="pl-7">
+                                    <h2>
+                                        Read More
+                                    </h2>
+                                </div>
+                                <div class="pt-1.5 pr-6">
+                                    <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                </div>
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg-[url('/assets/images/Bgfooter.png')] w-full h-auto bg-no-repeat bg-cover bg-sticky">
+            <div class="grid grid-cols-1 gap-5 px-4 py-4 md:grid-cols-2 md:px-24 md:py-16 md:gap-0">
+                <div class="text-2xl md:text-4xl">
+                    <h2>
+                        Have a any questions?<br>
+                        Contact Us
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-0">
+                    <div class="flex gap-2">
+                        <div>
+                            <img src="./assets/images/Phone.svg" alt="Phone">
+                        </div>
+                        <div>
+                            <h2 class="text-xs">Phone Number</h2>
+                            <p class="text-lg">+0(850) 544 7514</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <img src="./assets/images/Mail.svg" alt="Mail">
+                        </div>
+                        <div>
+                            <h2 class="text-xs">E-Mail Address</h2>
+                            <p class="text-lg">hello@crosson.com</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <img src="./assets/images/Map.svg" alt="Map">
+                        </div>
+                        <div>
+                            <h2 class="text-xs">
+                                Headquarters
+                            </h2>
+                            <p class="text-lg">One Apple Park Way; Cupertino
+                                CA 95014, U.S.A.
+                            </p>
+                            <u class="text-[13px]">Get Direction</u>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 px-10 md:grid-cols-2 md:pb-24 md:px-24">
+                <div class="grid grid-cols-1 md:grid-cols-3">
+                    <div class="flex flex-col gap-10">
+                        <h2 class="text-3xl">Products</h2>
+                        <div class="text-base font-normal flex flex-col gap-3">
+                            <p>Filling Machines</p>
+                            <p>Bottle Filling Series</p>
+                            <p>Package Machines</p>
+                            <p>Linear Machines</p>
+                            <p>Rotary Machines</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-10">
+                        <h2 class="text-3xl">Solutions</h2>
+                        <div class="text-base font-normal flex flex-col gap-3">
+                            <p>End of Line Solutions</p>
+                            <p>Food Industry Machines Software</p>
+                            <p>Research Solutions</p>
+                            <p>Conveyor Solutions</p>
+                            <p>Special Solutions Your Needs</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-10">
+                        <h2 class="text-3xl">Corporate</h2>
+                        <div class="text-base font-normal flex flex-col gap-3">
+                            <p>About Us</p>
+                            <p>Our Values</p>
+                            <p>Human Resorces</p>
+                            <p>News</p>
+                            <p>Contact</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:flex flex gap-10">
+                    <div>
+                        <img src="./assets/images/Icon.svg" alt="Icon">
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h2 class="text-3xl font-normal">Career Opportunities</h2>
+                        <p>Cake pudding lollipop pastry cupcake chocolate. <br>Gummi bears halvah <u>sesame snaps.</u>
+                        </p>
+                        <a href="http://127.0.0.1:5500/pages/contact.html">
+                            <button class="bg-[#FCD900] hover:opacity-70 rounded-md w-[220px] h-[48px]">
+                                <div class="flex gap-5 ml-7">
+                                    <div>
+                                        <h2>
+                                            Opening Positions
+                                        </h2>
+                                    </div>
+                                    <div class="pt-1.5">
+                                        <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                    </div>
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-col-1 gap-5 px-5 md:flex justify-between md:gap-0 md:px-20 py-5">
+            <div>
+                <h2>Copyright by Erkan Giris | All rights reserverd</h2>
+            </div>
+            <div>
+                <h2>Our Privacy and Personal Data Protection Policy | Terms and Conditions of Use</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

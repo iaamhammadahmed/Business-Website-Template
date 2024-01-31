@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/Favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="bg-[url('/pages/assets/images/bgabout.png')] bg-[#F1F1F1] w-auto h-auto bg-no-repeat bg-contain">
+        <div class="pt-20 px-16 flex flex-col gap-10">
+            <div class="flex flex-col gap-3">
+                <h2 class="text-5xl font-normal">Contact Us</h2>
+                <div class="flex flex-rows-2 gap-3">
+                    <div class="flex gap-3">
+                        <h2 class="text-xs font-normal">Home</h2>
+                        <img src="./assets/images/RIcon.svg" alt="RIcon">
+                    </div>
+                    <div class="flex gap-3">
+                        <h2 class="text-xs font-normal">Contact Us</h2>
+                        <img src="./assets/images/RIcon.svg" alt="RIcon">
+                    </div>
+                </div>
+            </div>
+            <div class="text-2xl font-normal leading-relaxed">
+                <h2>
+                    Interested in our <span class="border-yellow-400 border-b-8">Machine & Software</span> services or
+                    need advice? Then please <br> get in touch and we’ll be glad to help.
+                </h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 px-16 gap-10 py-20 md:grid-cols-2">
+            <div class="px-5 py-8 flex flex-col gap-7">
+                <div>
+                    <h2 class="text-2xl font-normal">Contact Informations</h2>
+                    <p class="text-lg font-normal text-[#524e4e]">Get in touch and let us know how we can help</p>
+                </div>
+                <div>
+                    <h2 class="text-sm text-[#bbb6b6] font-bold">PHONE</h2>
+                    <p class="text-lg font-normal">+0(850) 544 7514</p>
+                </div>
+                <div>
+                    <h2 class="text-sm text-[#bbb6b6] font-bold">MAIL</h2>
+                    <p class="text-lg font-normal">hello@crosson.com</p>
+                </div>
+                <div>
+                    <h2 class="text-sm text-[#bbb6b6] font-bold">ADDRESS</h2>
+                    <p class="text-lg font-normal">One Apple Park Way; Cupertino CA 95014, U.S.A.</p>
+                </div>
+                <div class="flex gap-5">
+                    <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                        <div class="flex justify-between">
+                            <div class="pl-7">
+                                <h2>
+                                    Get Directions
+                                </h2>
+                            </div>
+                            <div class="pt-1.5 pr-6">
+                                <img src="./assets/images/RIcon.svg" alt="RIcon">
+                            </div>
+                        </div>
+                    </button>
+                    <u class="pt-5">See on Map</u>
+                </div>
+            </div>
+            <div>
+                <div class="pt-10">
+                    <h2 class="text-2xl font-normal">Contact Form</h2>
+                    <p class="text-lg font-normal">Get in touch and let us know how we can help</p>
+                </div>
+                <div class="w-full flex items-center justify-center">
+                    <div>
+                        <div class="md:flex items-center pt-5">
+                            <div class="md:w-72 flex flex-col">
+                                <input tabindex="0" arial-label="Enter your name" type="name"
+                                    class="text-base leading-none p-3 focus:border-indigo-700 mt-4 bg-[#F4F6FC] border rounded placeholder-black"
+                                    placeholder="Name Surname" />
+                            </div>
+                            <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
+
+                                <input tabindex="0" arial-label="Enter your Email" type="name"
+                                    class="text-base leading-none p-3 focus:border-indigo-700 mt-4 bg-[#F4F6FC] border rounded placeholder-black"
+                                    placeholder="E-Mail Address" />
+                            </div>
+                        </div>
+                        <div class="md:flex items-center mt-8">
+                            <div class="md:w-72 flex flex-col">
+                                <input tabindex="0" role="input" arial-label="Provide context" type="number"
+                                    class="text-base leading-none p-3 focus:border-indigo-700 mt-4 bg-[#F4F6FC] border rounded placeholder-black"
+                                    placeholder="Phone Number" />
+                            </div>
+                            <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
+                                <input tabindex="0" arial-label="Your Company" type="text"
+                                    class="text-base leading-none p-3 focus:border-indigo-700 mt-4 bg-[#F4F6FC] border rounded placeholder-black"
+                                    placeholder="Your Company" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="w-full flex flex-col mt-8">
+                                <textarea tabindex="0" aria-label="leave a message" role="textbox" type="text"
+                                    class="h-36 p-3 focus:border-indigo-700 mt-4 bg-[#F4F6FC] border rounded placeholder-black resize-none"
+                                    placeholder="Your Message">
+                                    </textarea>
+                            </div>
+                        </div>
+                        <div class="w-full pt-5 flex justify-end">
+                            <button class="bg-[#FCD900] hover:opacity-70 rounded-sm w-[220px] h-[48px]">
+                                <div class="flex justify-between">
+                                    <div class="pl-7">
+                                        <h2>
+                                            Get Directions
+                                        </h2>
+                                    </div>
+                                    <div class="pt-1.5 pr-6">
+                                        <img src="./assets/images/RIcon.svg" alt="RIcon">
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
